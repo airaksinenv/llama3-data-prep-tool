@@ -96,3 +96,9 @@ Lupaavimmalta kuitenkin vaikuttaa suurin `llama3:8b` -malli, joka on silti hyvin
 `llama3.2:1b` -mallilla kesti noin 2min & `llama3.2:3b` -mallilla noin 3min.
 
 Näistä tuloksista johtuen käytän jatkossa vain `llama3:8b` -mallia.
+
+#### Batch processing
+
+Uusitulla funktiolla sain toistaiseksi lupaavimmat tulokset, alunperin tarkoituksena oli vain nopeuttaa funktion toimintaa mutta kun rivit käsitellään viiden köntissä tulokset ovat myös tarkentuneet huomattavasti.
+
+Nämä tulokset ovat näkyvillä `data/tests/8b/test3.md`
