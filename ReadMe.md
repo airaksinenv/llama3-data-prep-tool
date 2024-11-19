@@ -84,3 +84,15 @@ Hei!
 Kyseessä on suomalainen chatbot, joka on valmiina vastaanottamaan ja käsittämään suomenkielisiä tilastotietoja. Olen rakennettu oppimaan jaymmärtämään erilaisia kieliä, myös suomea.
 
 Kuten haluat, anna minulle käsiteltäväksi suomenkielistä dataa, ja minä yritän tehdä siitä järkevää. Olkoon tietoa miten hyvin minä kykenen käsittämään sen! (46.2s)
+
+---
+
+### Testitulokset
+
+Testitulosten perusteella pienimmät mallit (`llama3.2:1b` & `llama3.2:3b`) eivät vaikuta kykeneviltä noutamaan pyydettyjä tietoja, onnistumisprosentti on etenkin pienimmässä `1b` -mallissa todella heikko eikä `3b` -mallissakaan kummoinen. 
+
+Lupaavimmalta kuitenkin vaikuttaa suurin `llama3:8b` -malli, joka on silti hyvin pieni (4.7GB). Virtuaaliympäristössä ajettuna Pienessä 5 rivin testidatassa kestää noin 6min.
+
+`llama3.2:1b` -mallilla kesti noin 2min & `llama3.2:3b` -mallilla noin 3min.
+
+Näistä tuloksista johtuen käytän jatkossa vain `llama3:8b` -mallia.
