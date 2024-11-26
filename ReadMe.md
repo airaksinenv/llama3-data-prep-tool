@@ -102,3 +102,12 @@ Näistä tuloksista johtuen käytän jatkossa vain `llama3:8b` -mallia.
 Uusitulla funktiolla sain toistaiseksi lupaavimmat tulokset, alunperin tarkoituksena oli vain nopeuttaa funktion toimintaa mutta kun rivit käsitellään viiden köntissä tulokset ovat myös tarkentuneet huomattavasti.
 
 Nämä tulokset ovat näkyvillä `data/tests/8b/test3.md`
+
+#### Seuraavaksi
+
+Json formaattiin outputti
+fewshotti (4-5 esimerkkivastausta, näyttää inputit ja outputit)
+openai yms. token selvitys (Naukkarisen markolta luulis saavan)
+kurkkaa feature engine cyclical encoder
+
+![alt text](image.png)
